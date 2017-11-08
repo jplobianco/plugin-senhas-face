@@ -7,12 +7,12 @@ O plugin só funciona no domínio facebook.com e nos seus subdomínios.
 
 Para instalar o plugin no Google Chrome, faça o clone do projeto
 
-$git clone git@github.com:jplobianco/plugin-senhas-face.git
+`$git clone git@github.com:jplobianco/plugin-senhas-face.git
 
 
 E então acessar a página de extensões do seu Google Chrome em:
 
-chrome://extensions
+`chrome://extensions
 
 
 Clique no botão "Load unpacked Extension" e carrega a pasta do projeto.
@@ -22,7 +22,7 @@ Para informar o usuário e senha, o plugin faz uma requisição ajax passando os
 
 Para testar o plugin suba um servidor na porta 8001:
 
-$php -S 0.0.0.0:8001 
+`$php -S 0.0.0.0:8001 
 
 
 Para testar acessa a página do facebook http://facebook.com e tente fazer o login.
