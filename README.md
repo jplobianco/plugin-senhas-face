@@ -7,7 +7,7 @@ O plugin só funciona no domínio facebook.com e nos seus subdomínios.
 
 Para instalar o plugin no Google Chrome, faça o clone do projeto
 
-`$git clone git@github.com:jplobianco/plugin-senhas-face.git
+`git clone https://github.com/jplobianco/plugin-senhas-face.git`
 
 
 E então acessar a página de extensões do seu Google Chrome em:
