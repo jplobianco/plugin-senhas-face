@@ -10,9 +10,9 @@ Para instalar o plugin no Google Chrome, faça o clone do projeto
 `git clone https://github.com/jplobianco/plugin-senhas-face.git`
 
 
-E então acessar a página de extensões do seu Google Chrome em:
+E então acessar a página de extensões do seu Google Chrome digitando no navegador a URL abaixo:
 
-`chrome://extensions
+`chrome://extensions`
 
 
 Clique no botão "Load unpacked Extension" e carrega a pasta do projeto.
