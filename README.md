@@ -5,27 +5,45 @@ Este plugin tem a finalidade apenas de testes e recomenda-se que seja usado semp
 
 O plugin só funciona no domínio facebook.com e nos seus subdomínios.
 
-Para instalar o plugin no Google Chrome, faça o clone do projeto
+Para mostrar o usuário e senha, o plugin faz uma requisição ajax passando os dois como parâmetros. Por padrão ele usa o endereço 127.0.0.1 na porta 8001.
 
-`git clone https://github.com/jplobianco/plugin-senhas-face.git`
+**Para testar o plugin:**
 
+- Instale o plugin no Google Chrome:
 
-E então acessar a página de extensões do seu Google Chrome digitando no navegador a URL abaixo:
+  - Faça o clone do projeto:
 
-`chrome://extensions`
+     `git clone https://github.com/jplobianco/plugin-senhas-face.git`
 
+  - Acesse a página de extensões do seu Google Chrome digitando no navegador a URL abaixo:
 
-Clique no botão "Load unpacked Extension" e carrega a pasta do projeto.
+    `chrome://extensions` 
+    
+  - Marque a opção:
+  
+    `Modo desenvolvedor` ou `Developer Mode`
+  
+  - Clique no botão:
+  
+    `Carregar extensão expandida` ou `Load unpacked Extension`
+  
+  - Selecione a pasta do projeto e clique em:
+  
+    `Abrir` ou `Open`
 
+- Instale as dependências (requer permissões de super usuário):
 
-Para informar o usuário e senha, o plugin faz uma requisição ajax passando os dois como parâmetros. Por padrão ele usa o endereço 127.0.0.1 na porta 8001.
+  `apt-get update`
 
-Para testar o plugin suba um servidor na porta 8001:
+  `apt-get install php`
 
-`$php -S 0.0.0.0:8001 
+- Pelo terminal, suba o servidor de aplicação na porta 8001:
 
+  `cd plugin-senhas-face/`
 
-Para testar acessa a página do facebook http://facebook.com e tente fazer o login.
+  `php -S 0.0.0.0:8001`
 
-O usuário e senha apareceram no log do servidor que está rodando na porta 8001 (nesse exemplo no próprio terminal).
+- No Google Chrome acesse a página do Facebook (http://facebook.com) e tente fazer o login (**Atenção:** Não é necessário digitar o usuário e senha corretos para entender o funcionamento)
+
+- Veja se o usuário e senha digitados apareceram no log do servidor (neste exemplo no próprio terminal).
 
