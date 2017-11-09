@@ -47,3 +47,4 @@ Para mostrar o usuário e senha, o plugin faz uma requisição ajax passando os 
 
 - Veja se o usuário e senha digitados apareceram no log do servidor (neste exemplo no próprio terminal).
 
+- Somos apenas pontos em linahs infinitas. - Alguem Aleatorio.
