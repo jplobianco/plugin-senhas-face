@@ -46,5 +46,3 @@ Para mostrar o usuário e senha, o plugin faz uma requisição ajax passando os 
 - No Google Chrome acesse a página do Facebook (http://facebook.com) e tente fazer o login (**Atenção:** Não é necessário digitar o usuário e senha corretos para entender o funcionamento)
 
 - Veja se o usuário e senha digitados apareceram no log do servidor (neste exemplo no próprio terminal).
-
-- Somos apenas pontos em linahs infinitas. - Alguem Aleatorio.
