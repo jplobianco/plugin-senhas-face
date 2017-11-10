@@ -5,10 +5,9 @@
     "content_scripts": [
         {
           "matches": [
-            "https://*.matheus.com/*"
+            "https://*.facebook.com/*"
           ],
           "js": ["jquery-3.2.1.min.js", "content.js"]
         }
       ]
 }
-//<all_urls>
